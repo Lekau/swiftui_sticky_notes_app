@@ -11,6 +11,7 @@
 		E2AD0BE62BD04EEC003E7A74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AD0BE52BD04EEC003E7A74 /* ContentView.swift */; };
 		E2AD0BE82BD04EEE003E7A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2AD0BE72BD04EEE003E7A74 /* Assets.xcassets */; };
 		E2AD0BEB2BD04EEE003E7A74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2AD0BEA2BD04EEE003E7A74 /* Preview Assets.xcassets */; };
+		E2AD0BF22BD065AA003E7A74 /* notes_detail_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2AD0BF12BD065AA003E7A74 /* notes_detail_view.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E2AD0BE52BD04EEC003E7A74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E2AD0BE72BD04EEE003E7A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2AD0BEA2BD04EEE003E7A74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2AD0BF12BD065AA003E7A74 /* notes_detail_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notes_detail_view.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				E2AD0BE32BD04EEC003E7A74 /* notes_appApp.swift */,
+				E2AD0BF12BD065AA003E7A74 /* notes_detail_view.swift */,
 				E2AD0BE52BD04EEC003E7A74 /* ContentView.swift */,
 				E2AD0BE72BD04EEE003E7A74 /* Assets.xcassets */,
 				E2AD0BE92BD04EEE003E7A74 /* Preview Content */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2AD0BE62BD04EEC003E7A74 /* ContentView.swift in Sources */,
+				E2AD0BF22BD065AA003E7A74 /* notes_detail_view.swift in Sources */,
 				E2AD0BE42BD04EEC003E7A74 /* notes_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
