@@ -59,7 +59,7 @@ struct ContentView: View {
                     }
                 })
                 
-            }
+            }.navigationTitle("My Sticky Notes")
         }.searchable(text: $searchTerm, prompt: "Search For Notes")
     }
 }
