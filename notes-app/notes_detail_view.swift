@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct notes_detail_view: View {
+    @State var note: String
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+                TextEditor(text:$note)
+                .navigationTitle("Note title")
+                .padding()
+        }
     }
 }
 
 #Preview {
-    notes_detail_view()
+    notes_detail_view(note: "")
 }

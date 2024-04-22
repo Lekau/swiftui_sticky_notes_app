@@ -45,7 +45,7 @@ struct ContentView: View {
                           content: {
                     ForEach(filteredNotes, id:\.self) { note in
                         NavigationLink(
-                            destination: notes_detail_view(),
+                            destination: notes_detail_view(note: note),
                             label: {
                             ZStack {
                                 Rectangle()
@@ -54,13 +54,14 @@ struct ContentView: View {
                                     .cornerRadius(10)
                                 Text(note).foregroundColor(.black)
                                     .multilineTextAlignment(.center).padding()
-                            }
+            }
                         })
                     }
                 })
-                
             }.navigationTitle("My Sticky Notes")
+            
         }.searchable(text: $searchTerm, prompt: "Search For Notes")
+                FloatingActionButton()
     }
 }
 
